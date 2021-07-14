@@ -69,7 +69,7 @@ NS_ASSUME_NONNULL_BEGIN
 // Extend NSObject's default description for easier debugging.
 - (NSString *)description {
   return [NSString stringWithFormat:
-      @"<%@: %p, clientID: %@, serverClientID: %@, hostedDomain: %@, openIDRealm: %@, nonce: $@>",
+      @"<%@: %p, clientID: %@, serverClientID: %@, hostedDomain: %@, openIDRealm: %@, nonce: %@>",
       NSStringFromClass([self class]),
       self,
       _clientID,
